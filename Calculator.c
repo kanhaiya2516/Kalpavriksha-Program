@@ -30,8 +30,8 @@ double fun(double a, double b, char operator) {
 }
 
 double fun1(char* expression) {
-    double values[100];
-    char operators[100];
+    double values[110];
+    char operators[110];
     int valueTop = -1, operatorTop = -1;
 
     int i = 0;
